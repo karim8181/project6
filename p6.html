@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+<img src="osen.jpg" width="150" height="100">
+<img src="osen1.jpg" width="150" height="100">
+</center>
+<center>
+    <img src="osen2.jpg" width="150" height="100">
+<img src="osen3.jpg" width="150" height="100">
+</center>
+<center>
+<div id="o1" style="width: 50px; height: 50px; background: white; border: solid black 1px;display: inline-block; vertical-align: top">
+
+    </div>
+<div id="o2" style="width: 50px; height: 50px; background: white; border: solid black 1px;display: inline-block; vertical-align: top">
+
+    </div>
+<div id="o3" style="width: 50px; height: 50px; background: white; border: solid black 1px;display: inline-block; vertical-align: top">
+
+    </div>
+<div id="o4" style="width: 50px; height: 50px; background: white; border: solid black 1px;display: inline-block; vertical-align: top">
+
+    </div>
+<div id="o5" style="width: 50px; height: 50px; background: white; border: solid black 1px;display: inline-block; vertical-align: top">
+
+    </div>
+</center>
+<center>
+    <div onclick="gg('e')" style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+        е
+    </div>
+    <div onclick="gg('ж')" style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+        ж
+    </div>
+    <div onclick="gg('з')"style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+        з
+    </div>
+    <div onclick="gg('и')"style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+        и
+    </div>
+    <div onclick="gg('н')"style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+н
+    </div>
+    <div onclick="gg('о')"style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+о
+    </div>
+    <div style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+    <img height="15px" width="15px" src="st.png">
+    </div>
+    <br/>
+        <div onclick="gg('п')" style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+п
+    </div>
+    <div onclick="gg('с')"style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+с
+    </div>
+    <div onclick="gg('у')"style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+у
+    </div>
+    <div onclick="gg('х')"style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+х
+    </div>
+    <div onclick="gg('ц')"style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+ц
+    </div>
+    <div onclick="gg('ь')" style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+ь
+    </div>
+    <div style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
+    <img src="kor.jpg" width="15" height="15">
+    </div>
+</center>
+</body>
+<script>
+    i=0
+function gg(text) {
+i+=1
+    if(i==1){
+document.getElementById('o1').innerHTML = text
+    }else if (i==2){
+        document.getElementById('o2').innerHTML = text
+    }else if (i==3){
+        document.getElementById('o3').innerHTML = text
+    }else if (i==4){
+        document.getElementById('o4').innerHTML = text
+    }else if (i==5){
+        document.getElementById('o5').innerHTML = text
+    }
+}
+</script>
+</html>

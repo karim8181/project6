@@ -50,7 +50,7 @@
 о
     </div>
     <div style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
-    <img height="15px" width="15px" src="st.png">
+    <img onclick="nek()" height="15px" width="15px" src="st.png">
     </div>
     <br/>
         <div onclick="gg('п')" style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
@@ -72,7 +72,7 @@
 ь
     </div>
     <div style="width: 15px; height: 15px; background: white; border: solid black 1px;display: inline-block">
-    <img src="kor.jpg" width="15" height="15">
+    <img onclick="korzina(' ')" src="kor.jpg" width="15" height="15">
     </div>
 </center>
 </body>
@@ -91,6 +91,21 @@ document.getElementById('o1').innerHTML = text
     }else if (i==5){
         document.getElementById('o5').innerHTML = text
     }
+}
+function korzina(k) {
+  document.getElementById('o1').innerHTML = k
+  document.getElementById('o2').innerHTML = k
+  document.getElementById('o3').innerHTML = k
+  document.getElementById('o4').innerHTML = k
+  document.getElementById('o5').innerHTML = k
+  i=0
+}
+function nek() {
+  if ('o1' == 'innerHTML = "о"') {
+    alert('yes')
+  }else{
+    alert('no')
+  }
 }
 </script>
 </html>
